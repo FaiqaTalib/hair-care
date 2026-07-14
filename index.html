@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HairPort — Elegant Hair Care</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ──────────── TOPBAR ──────────── -->
+<div class="topbar">
+  ✨ Free shipping on orders over $50 | Use code <strong>HRP20</strong> for 20% off
+</div>
+
+<!-- ──────────── NAVBAR (injected by navfoot.js) ──────────── -->
+<nav></nav>
+
+<!-- ──────────── HERO CAROUSEL ──────────── -->
+<section id="home">
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-slide slide-1">
+          <div class="slide-bg-blur" style="background-image: url('pics/slide-01.jpg');"></div>
+          <div class="slide-texture"></div>
+          <div class="container">
+            <div class="row align-items-center slide-content">
+              <div class="col-lg-7">
+                <p class="slide-eyebrow">Complete Hair Care Guide</p>
+                <h1>Nourish Your Hair,<br/><em>Transform Your Life.</em></h1>
+                <p>Discover expert-backed remedies, premium products, and professional equipment — all in one trusted platform.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="#problems" class="btn-gold">Explore Problems</a>
+                  <a href="treatments.html#remedies" class="btn-ghost">Home Remedies</a>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+                <div class="slide-emoji"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-slide slide-2">
+          <div class="slide-bg-blur" style="background-image: url('pics/slide-02.jpg');"></div>
+          <div class="slide-texture"></div>
+          <div class="container">
+            <div class="row align-items-center slide-content">
+              <div class="col-lg-7">
+                <p class="slide-eyebrow">100% Natural Remedies</p>
+                <h1>Nature's Best Kept<br/><em>Hair Secrets.</em></h1>
+                <p>From onion juice to aloe vera — simple kitchen ingredients with powerful, proven results for healthier hair.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="treatments.html#remedies" class="btn-gold">View Remedies</a>
+                  <a href="treatments.html#products" class="btn-ghost">Shop Products</a>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+                <div class="slide-emoji"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-slide slide-3">
+          <div class="slide-bg-blur" style="background-image: url('pics/slide-03.jpg');"></div>
+          <div class="slide-texture"></div>
+          <div class="container">
+            <div class="row align-items-center slide-content">
+              <div class="col-lg-7">
+                <p class="slide-eyebrow">Professional Equipment</p>
+                <h1>Tools Trusted by<br/><em>Professionals.</em></h1>
+                <p>Compare dryers, steamers, and massagers from Dyson, Philips, and more — with honest guides and specs.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="treatments.html#equipment" class="btn-gold">See Equipment</a>
+                  <a href="brands.html#compare" class="btn-ghost">Compare Brands</a>
+                </div>
+              </div>
+              <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+                <div class="slide-emoji"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- carousel-inner -->
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <i class="bi bi-chevron-left text-white fs-5"></i>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <i class="bi bi-chevron-right text-white fs-5"></i>
+    </button>
+  </div>
+</section>
+
+<!-- ──────────── STAT BAR ──────────── -->
+<div class="stat-bar">
+  <div class="container-fluid">
+    <div class="d-flex">
+      <div class="stat-item"><div class="stat-num">4</div><div class="stat-lbl">Hair Problems</div></div>
+      <div class="stat-item"><div class="stat-num">7</div><div class="stat-lbl">Products</div></div>
+      <div class="stat-item"><div class="stat-num">6</div><div class="stat-lbl">Equipment Types</div></div>
+      <div class="stat-item"><div class="stat-num">5</div><div class="stat-lbl">Trusted Brands</div></div>
+      <div class="stat-item"><div class="stat-num">4</div><div class="stat-lbl">Home Remedies</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ──────────── HAIR PROBLEMS (TABS) ──────────── -->
+<section id="problems" class="sec">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p class="eyebrow">Categorized Menu</p>
+        <h2 class="sec-title">Hair Problem Categories</h2>
+        <div class="gold-rule"></div>
+        <p class="sec-sub">Understand the cause before the cure. Select a category to explore causes, treatments, recommended products, and prevention tips.</p>
+      </div>
+    </div>
+
+    <div class="problems-tabs">
+      <ul class="nav nav-tabs" id="problemTabs">
+        <li class="nav-item">
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#hairloss">💧 Hair Loss</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#graying">✨ Graying Hair</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#growth">🌱 Growth Issues</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#baldness">🛡️ Premature Baldness</button>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane fade show active" id="hairloss">
+          <div class="prob-panel">
+            <div class="prob-panel-header">
+              <div class="prob-icon-lg">💧</div>
+              <div>
+                <h3>Hair Loss (Alopecia)</h3>
+                <p>The most common hair problem affecting millions worldwide. Understanding the root cause is the first step to recovery.</p>
+              </div>
+            </div>
+            <div class="prob-panel-body">
+              <div class="row g-4">
+                <div class="col-md-3">
+                  <p class="prob-col-title">Causes</p>
+                  <ul class="prob-list">
+                    <li>Genetic/hereditary factors</li>
+                    <li>Hormonal imbalance</li>
+                    <li>Poor nutrition &amp; vitamin deficiency</li>
+                    <li>Chronic stress</li>
+                    <li>Scalp infections</li>
+                    <li>Over-styling with heat</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Treatments</p>
+                  <ul class="prob-list">
+                    <li>Minoxidil (topical)</li>
+                    <li>PRP therapy</li>
+                    <li>Biotin supplements</li>
+                    <li>Laser therapy (LLLT)</li>
+                    <li>Scalp massage routine</li>
+                    <li>Hair transplant surgery</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Home Remedies</p>
+                  <ul class="prob-list">
+                    <li>Onion juice application</li>
+                    <li>Castor oil massage</li>
+                    <li>Egg yolk hair mask</li>
+                    <li>Green tea rinse</li>
+                    <li>Aloe vera scalp gel</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Prevention</p>
+                  <ul class="prob-list">
+                    <li>Balanced, protein-rich diet</li>
+                    <li>Gentle hair handling</li>
+                    <li>Reduce heat styling</li>
+                    <li>Manage stress levels</li>
+                    <li>Regular scalp oiling</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="graying">
+          <div class="prob-panel">
+            <div class="prob-panel-header">
+              <div class="prob-icon-lg">✨</div>
+              <div>
+                <h3>Premature Graying</h3>
+                <p>Graying before age 25 (in Asians) is considered premature. It's driven by melanin loss in hair follicles.</p>
+              </div>
+            </div>
+            <div class="prob-panel-body">
+              <div class="row g-4">
+                <div class="col-md-3">
+                  <p class="prob-col-title">Causes</p>
+                  <ul class="prob-list">
+                    <li>Genetic predisposition</li>
+                    <li>Vitamin B12 deficiency</li>
+                    <li>Thyroid disorders</li>
+                    <li>Oxidative stress</li>
+                    <li>Smoking habit</li>
+                    <li>Autoimmune conditions</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Solutions</p>
+                  <ul class="prob-list">
+                    <li>B12 &amp; folic acid supplements</li>
+                    <li>Copper-rich diet</li>
+                    <li>Quit smoking</li>
+                    <li>Thyroid management</li>
+                    <li>Antioxidant-rich foods</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Home Remedies</p>
+                  <ul class="prob-list">
+                    <li>Amla (Indian gooseberry) oil</li>
+                    <li>Black sesame paste</li>
+                    <li>Curry leaves in coconut oil</li>
+                    <li>Henna + coffee paste</li>
+                    <li>Rosemary oil treatment</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Products</p>
+                  <ul class="prob-list">
+                    <li>Melanin-boosting serums</li>
+                    <li>Color-safe shampoos</li>
+                    <li>Deep conditioning masks</li>
+                    <li>Biotin supplements</li>
+                    <li>UV-protection sprays</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="growth">
+          <div class="prob-panel">
+            <div class="prob-panel-header">
+              <div class="prob-icon-lg">🌱</div>
+              <div>
+                <h3>Hair Growth Issues</h3>
+                <p>Slow or stunted hair growth affects confidence. The right nutrition, scalp care, and treatments can make a dramatic difference.</p>
+              </div>
+            </div>
+            <div class="prob-panel-body">
+              <div class="row g-4">
+                <div class="col-md-3">
+                  <p class="prob-col-title">Causes</p>
+                  <ul class="prob-list">
+                    <li>Nutritional deficiencies</li>
+                    <li>Poor scalp circulation</li>
+                    <li>Hormonal disruptions</li>
+                    <li>Over-processing &amp; chemicals</li>
+                    <li>Anemia (low iron)</li>
+                    <li>Crash dieting</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Treatments</p>
+                  <ul class="prob-list">
+                    <li>Scalp massages daily</li>
+                    <li>Dermarolling (0.5mm)</li>
+                    <li>Biotin injections</li>
+                    <li>Iron &amp; zinc supplements</li>
+                    <li>Protein-rich diet</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Home Remedies</p>
+                  <ul class="prob-list">
+                    <li>Aloe vera gel on scalp</li>
+                    <li>Rosemary oil massage</li>
+                    <li>Rice water rinse</li>
+                    <li>Fenugreek seed paste</li>
+                    <li>Peppermint oil serum</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Foods for Growth</p>
+                  <ul class="prob-list">
+                    <li>Eggs (complete protein)</li>
+                    <li>Spinach &amp; leafy greens</li>
+                    <li>Sweet potatoes</li>
+                    <li>Nuts &amp; seeds</li>
+                    <li>Fatty fish (omega-3)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="baldness">
+          <div class="prob-panel">
+            <div class="prob-panel-header">
+              <div class="prob-icon-lg">🛡️</div>
+              <div>
+                <h3>Premature Baldness</h3>
+                <p>Androgenetic alopecia (pattern baldness) is the most common form. Early intervention significantly improves outcomes.</p>
+              </div>
+            </div>
+            <div class="prob-panel-body">
+              <div class="row g-4">
+                <div class="col-md-3">
+                  <p class="prob-col-title">Causes</p>
+                  <ul class="prob-list">
+                    <li>DHT hormone sensitivity</li>
+                    <li>Genetic inheritance</li>
+                    <li>Autoimmune disorders</li>
+                    <li>Traction (tight styles)</li>
+                    <li>Medications side effects</li>
+                    <li>Severe nutritional lack</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Medical Options</p>
+                  <ul class="prob-list">
+                    <li>Finasteride (oral)</li>
+                    <li>Minoxidil (topical)</li>
+                    <li>Hair transplant (FUE)</li>
+                    <li>PRP injections</li>
+                    <li>Low-level laser therapy</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Natural Approach</p>
+                  <ul class="prob-list">
+                    <li>Saw palmetto supplement</li>
+                    <li>Pumpkin seed oil</li>
+                    <li>Scalp massage routine</li>
+                    <li>Reduce DHT via diet</li>
+                    <li>Anti-inflammatory diet</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <p class="prob-col-title">Prevention</p>
+                  <ul class="prob-list">
+                    <li>Early diagnosis &amp; treatment</li>
+                    <li>Avoid tight hairstyles</li>
+                    <li>Reduce chemical use</li>
+                    <li>Manage DHT levels</li>
+                    <li>Regular dermatologist visits</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- tab-content -->
+    </div><!-- problems-tabs -->
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/navfoot.js"></script>
+</body>
+</html>

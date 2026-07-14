@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HairPort — Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ──────────── NAVBAR (injected by navfoot.js) ──────────── -->
+<nav></nav>
+
+<!-- ──────────── GALLERY ──────────── -->
+<section id="gallery" class="sec sec-alt">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p class="eyebrow">Visual Reference</p>
+        <h2 class="sec-title">Gallery</h2>
+        <div class="gold-rule"></div>
+        <p class="sec-sub">Browse hair care equipment, products, and treatment visuals by category.</p>
+      </div>
+    </div>
+
+    <!-- Filter buttons -->
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="equipment">Equipment</button>
+      <button class="filter-btn" data-filter="remedy">Remedies</button>
+      <button class="filter-btn" data-filter="product">Products</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" data-cat="equipment">
+        <div class="gallery-face"><img src="pics/HAIR DRYER_BHD321_00 PHILIPS.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Dryer</h6><small>Philips · Equipment</small></div>
+      </div>
+      <div class="gallery-item" data-cat="remedy">
+        <div class="gallery-face"><img src="pics/Homemade Aloe Vera Gel _ DIY.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Aloe Vera Treatment</h6><small>Remedy · Growth</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Serum-01.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Serum</h6><small>Product · Anti-Frizz Serum with Argan Oil and Keratin</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Serum-02.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Serum</h6><small>Product · Hair Serum for Silky, Frizz-Free and Glossy Hair</small></div>
+      </div>
+      <div class="gallery-item" data-cat="equipment">
+        <div class="gallery-face"><img src="pics/STIMULATING SCALP MASSAGER BRUSH.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Scalp Massager</h6><small>Equipment · Growth</small></div>
+      </div>
+      <div class="gallery-item" data-cat="remedy">
+        <div class="gallery-face"><img src="pics/Egg + Yogurt Homemade Remedy for Straight & Smooth Hair 🥚🥣.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Egg &amp; Yogurt Mask</h6><small>Remedy · Dry Hair</small></div>
+      </div>
+      <div class="gallery-item" data-cat="equipment">
+        <div class="gallery-face"><img src="pics/Hair Steamer.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Steamer</h6><small>Panasonic · Spa</small></div>
+      </div>
+      <div class="gallery-item" data-cat="remedy">
+        <div class="gallery-face"><img src="pics/Onion Juice For Hair.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Onion Juice</h6><small>Remedy · Hair Loss</small></div>
+      </div>
+      <div class="gallery-item" data-cat="equipment">
+        <div class="gallery-face"><img src="pics/Straightener.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Straightener</h6><small>Havells · Equipment</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Shampoo-01.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Volumizing Shampoo</h6><small>Product · Volumizing shampoo by hairport for all types of hairs</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Mask-01.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Intense Repair Hair Mask</h6><small>Product · for dry, frizzy and damaged hair</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Mask-02.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Mask</h6><small>Product · standard hair mask for frizzy hair by hairport </small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Mask-03.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Mask</h6><small>Product · standard hair mask for damaged hair by hairport</small></div>
+      </div>
+       <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Cream-01.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Keratin Hair Cream</h6><small>Product · with keratin and vitamin e for volume, shine and repair</small></div>
+      </div>
+      <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Cream-02.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Cream</h6><small>Product · with shea butter, argan oil and vitamin e for soft, smooth and frizz-free hair</small></div>
+      </div>
+       <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/conditioner-01.jpeg" alt=""></div>
+        <div class="gallery-cap"><h6>Conditioner</h6><small>Product · deep moisture conditioner with shea butter and almond oil</small></div>
+      </div>
+       <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Spray-01.jpeg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Spray</h6><small>Product · long-lasting hold humidity and frizz control</small></div>
+      </div>
+       <div class="gallery-item" data-cat="product">
+        <div class="gallery-face"><img src="pics/Hair Oil-01.jpeg" alt=""></div>
+        <div class="gallery-cap"><h6>Hair Oil</h6><small>Product · nourishes and strengthens hair. reduces hair fall with rosemary, castor oil and argan oil</small></div>
+      </div>
+      <div class="gallery-item" data-cat="remedy">
+        <div class="gallery-face"><img src="pics/DIY Hair Care_ Natural Remedies for Maintaining Beautiful Grey Hair.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Lemon &amp; Coconut Oil</h6><small>Remedy · Dandruff</small></div>
+      </div>
+      <div class="gallery-item" data-cat="equipment">
+        <div class="gallery-face"><img src="pics/spa caps.jpg" alt=""></div>
+        <div class="gallery-cap"><h6>Spa Cap</h6><small>Equipment · Deep Conditioning</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  /* ── Gallery filter ── */
+  document.querySelectorAll('.filter-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.filter-btn').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+
+      var filter = btn.dataset.filter;
+
+      document.querySelectorAll('.gallery-item').forEach(function(item) {
+        var match = filter === 'all' || item.dataset.cat === filter;
+        item.classList.toggle('hidden', !match);
+      });
+    });
+  });
+</script>
+
+<script src="./js/navfoot.js"></script>
+</body>
+</html>
